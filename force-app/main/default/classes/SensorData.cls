@@ -5,7 +5,7 @@ public with sharing class SensorData {
 
     public SensorData(String accountId, String sensorName, Integer[] coordinates) {
         this.accountId = accountId;
-        this.sensorId = sensorId;
+        this.sensorName = sensorName;
         this.coordinates = coordinates;
     }
 }

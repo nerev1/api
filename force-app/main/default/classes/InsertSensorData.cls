@@ -1,4 +1,5 @@
 global class InsertSensorData {
+    global static String NO_SUCH_ACCOUNT = 'No such account';
     global static void insertData(Id accountId, String sensorId, List<Integer> coordinates) {
         try {
             Sensor__c sensor = getSensor(accountId, sensorId);
@@ -18,7 +19,7 @@ global class InsertSensorData {
 
     private static Sensor__c getSensor(Id accountId, String sensorId) {
         if (!isExistingAccount(accountId)) {
-            throw new QueryException('No such account');
+            throw new QueryException(NO_SUCH_ACCOUNT);
         }
 
         List<Sensor__c> sensors = [SELECT Name 

@@ -6,7 +6,7 @@
     <label>Previous Event</label>
     <referenceTo>Sensor_Event__c</referenceTo>
     <relationshipLabel>Sensor Events</relationshipLabel>
-    <relationshipName>Sensor_Events</relationshipName>
+    <relationshipName>Previous_Events</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

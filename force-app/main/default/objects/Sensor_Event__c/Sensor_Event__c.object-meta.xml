@@ -149,13 +149,13 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>true</enableSearch>
+    <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <label>Sensor Event</label>
     <nameField>
-        <displayFormat>A-{0}</displayFormat>
+        <displayFormat>{0}</displayFormat>
         <label>Sensor Event Name</label>
         <type>AutoNumber</type>
     </nameField>

@@ -40,5 +40,13 @@
         <members>*</members>
         <name>RemoteSiteSetting</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>AuthProvider</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>NamedCredential</name>
+    </types>
     <version>49.0</version>
 </Package>

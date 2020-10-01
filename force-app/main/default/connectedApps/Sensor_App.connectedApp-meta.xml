@@ -3,7 +3,7 @@
     <contactEmail>nerev94@gmail.com</contactEmail>
     <label>Sensor App</label>
     <oauthConfig>
-        <callbackUrl>https://ap16.lightning.force.com/service/oauth2/callback</callbackUrl>
+        <callbackUrl>https://curious-badger-1oi09y-dev-ed.my.salesforce.com/services/authcallback/SensorAppAuthProvider</callbackUrl>
         <consumerKey>3MVG9n_HvETGhr3Dx3kc7zwp7HaxXlTd63Uw2_cSALM87qOz8ycyUn_kkJDY1L_v37KyQGTCdhEwQKufh0W18</consumerKey>
         <isAdminApproved>false</isAdminApproved>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
